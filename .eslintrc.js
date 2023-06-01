@@ -29,7 +29,7 @@ module.exports = {
     'arrow-parens': 'off',
     'react/function-component-definition': 'off',
     'no-shadow': 'off',
-    'max-len': [2, 120],
+    'max-len': [2, { code: 120, ignoreComments: true }],
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'warn',
     'no-underscore-dangle': 'off',
