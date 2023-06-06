@@ -1,7 +1,5 @@
-import { addDecorator, DecoratorFn, Story, StoryFn } from '@storybook/react';
-import { DecoratorFunction } from '@storybook/addon-actions';
-import React from 'react';
-import { StoryFnReactReturnType } from '@storybook/react/dist/ts3.9/client/preview/types';
+import { addDecorator } from '@storybook/react';
+
 import { StyleDecorator } from '../../src/shared/config/storybook/StyleDecorator/StyleDecorator';
 import { ThemeDecorator } from '../../src/shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from '../../src/app/providers/ThemeProvider';
