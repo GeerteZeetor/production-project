@@ -26,14 +26,13 @@
 
 .items {
   margin-top: 20px;
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
 }
 
 .item {
   margin-top: 10px;
-  margin-bottom: 15px;
   display: flex;
   align-items: center;
 }
@@ -41,7 +40,6 @@
 .link {
   margin-left: 10px;
   opacity: 1;
-  transition: 0.4s all ease-in-out;
 }
 
 .icon {
@@ -49,7 +47,7 @@
 }
 
 .collapsed {
-  width: var(--sidebar-width-collaosed);
+  width: var(--sidebar-width-collapsed);
 
   .switchers {
     flex-direction: column;
@@ -62,8 +60,7 @@
 
   .link {
     opacity: 0;
+    transition: 0.2s opacity;
     width: 0;
-    transition: 0.1s all ease-in-out;
-    transform: inherit;
   }
 }
