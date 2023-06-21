@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Андрей",
+    "lastname": "Морозов",
+    "age": 28,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Yekaterinburg",
+    "username": "admin",
+    "avatar": "https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-Vector-PNG-File.png"
+  }
 }
