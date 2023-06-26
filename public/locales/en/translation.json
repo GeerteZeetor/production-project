@@ -6,11 +6,12 @@
   "новый перевод": "новый перевод",
   "Страница не найдена": "Page not found",
   "Произошла непредвиденная ошибка": "An unexpected error has occurred",
-  "Обновить страницу": "Reload page",
+  "Попробуйте обновить страницу": "Try refreshing the page",
   "throw error": "throw error",
   "Главная": "Main",
   "О сайте": "About us",
-  "Переключить": "Переключить",
+  "Профиль": "Profile",
+  "Переключить": "Toggle",
   "Короткий язык": "En",
   "Войти": "Login",
   "increment": "increment",
@@ -19,5 +20,7 @@
   "Введите пароль": "Enter password",
   "Форма авторизации": "Auth form",
   "Вы ввели неверный логин или пароль": "Uncorrect username or password",
-  "Выйти": "Выйти"
+  "Выйти": "Logout",
+  "Укажите валюту": "Specify currency",
+  "Укажите страну": "Specify country"
 }

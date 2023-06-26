@@ -6,7 +6,6 @@ import { ProfileSchema } from 'entities/Profile';
 import { AxiosInstance } from 'axios';
 import { To } from 'history';
 import { NavigateOptions } from 'react-router';
-import { Dispatch } from 'redux';
 
 export interface StateSchema {
   counter: CounterSchema;
@@ -38,5 +37,5 @@ export interface ThunkExtraArg {
 export interface ThunkConfig<T> {
   rejectValue: T;
   extra: ThunkExtraArg;
-  dispatch?: Dispatch;
+  state: StateSchema;
 }
