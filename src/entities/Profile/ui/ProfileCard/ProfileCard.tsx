@@ -59,7 +59,7 @@ export const ProfileCard = (props: ProfileCardProps) => {
           title={t('Произошла непредвиденная ошибка')}
           theme={TextTheme.ERROR}
           text={t('Попробуйте обновить страницу')}
-          aling={TextAlign.CENTER}
+          align={TextAlign.CENTER}
         />
       </div>
     );
