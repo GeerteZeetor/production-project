@@ -12,6 +12,7 @@ const data = {
   country: Country.Russia,
   currency: Currency.RUB,
   city: 'Yekaterinburg',
+  id: '1'
 };
 describe('fetchProfileData', () => {
   test('success', async () => {

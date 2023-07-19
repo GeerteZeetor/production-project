@@ -19,7 +19,9 @@
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       "views": 1022,
       "createdAt": "26.06.2023",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -100,6 +102,30 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "asd",
+      "id": "x3pQgGr"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Hello!! I`m John",
+      "id": "x1ulrui"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "First!",
+      "id": "FOWIzF1"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Hello world",
+      "id": "jH5Oppy"
     }
   ],
   "users": [
@@ -118,14 +144,28 @@
       "avatar": "https://cdn.metatime.com/landing/blog/1686575019blobid0.jpg"
     }
   ],
-  "profile": {
-    "first": "Андрей",
-    "lastname": "Морозов",
-    "age": 28,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Yekaterinburg",
-    "username": "admin",
-    "avatar": "https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-Vector-PNG-File.png"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Андрей",
+      "lastname": "Морозов",
+      "age": 28,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Yekaterinburg",
+      "username": "admin",
+      "avatar": "https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-Vector-PNG-File.png"
+    },
+    {
+      "id": "2",
+      "first": "Ivan",
+      "lastname": "qwe",
+      "age": 32,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Yekaterinburg",
+      "username": "admin123",
+      "avatar": "https://cdn.metatime.com/landing/blog/1686575019blobid0.jpg"
+    }
+  ]
 }
